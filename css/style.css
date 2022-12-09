@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1{
+    margin: 50px auto 2.5rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.6875rem;
+    color: #2c786c;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #2c786c;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-align: left; 
+}
+p{
+    font-size: 1.25rem;
+    line-height: 2;
+    text-align: left;
+}
+.top-container{
+    background-color: #e4f9ff;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    padding: 100px 0;
+
+}
+.top-cloud{
+    position: absolute;
+    top: 70px;
+    right: 330px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 307px;
+    left: 330px;
+}
+.profile-image{
+    width: 163px;
+    height: 213px;
+    border-radius: 10%;
+}
+.intro{
+    width: 50%;
+    margin: 31px auto;
+    line-height: 2;
+    text-align: center;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 73px auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 150px auto;
+
+}
+.skill-1{
+    width: 203px;
+    height: 204px;
+    float: left;
+    margin-right: 130px;
+}
+.skill-2{
+    width: 203px;
+    height: 264px;
+    float: right;
+    margin-left: 150px;
+}
+.skill-3{
+    width: 203px;
+    height: 335px;
+    float: left;
+    margin-right: 150px;
+}
+.contact-heading{
+    width: 50%;
+    margin: 31px auto;
+    line-height: 2;
+    text-align: center;
+}
+.contact-messages{
+    width: 50%;
+    margin: 31px auto;
+    line-height: 2;
+    text-align: center;
+}
+
+/* css button from button generator site */
+
+.buttonClass {
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 9px 28px;
+    text-decoration: none;
+    border-width:1px;
+    color:#fff;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0px 10px 14px -7px rgba(36, 81, 92, 1);
+    background:linear-gradient(rgba(91, 176, 206, 1), rgba(41, 120, 134, 1));
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(rgba(41, 120, 134, 1), rgba(91, 176, 206, 1));
+  }
+  .bottom-container{
+    background-color: #66BFBF;
+    padding: 26px 113px;
+  }
+  .footer-link{
+    font-family: 'Sacramento', cursive;
+    padding: 30px 71px;
+    text-decoration: none;
+    font-size: 32px;
+  }
+  .footer-link:hover{
+    color: #fff;
+  }
+.copyrights{
+    font-size: 12px;
+    color: #e4f9ff;
+    text-align: center;
+    padding-top: 9px;
+}
